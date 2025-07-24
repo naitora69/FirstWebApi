@@ -114,3 +114,12 @@
 /home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/naitora/Code/FinShark/api/bin/Debug/net8.0/Newtonsoft.Json.dll
 /home/naitora/Code/FinShark/api/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/naitora/Code/FinShark/api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
