@@ -11,7 +11,7 @@ namespace api.Mappers
     {
         public static StockDto ToStokDto(this Stock stockModel)
         {
-            return new StockDto 
+            return new StockDto
             {
                 Id = stockModel.Id,
                 Symbol = stockModel.Symbol,
@@ -19,7 +19,8 @@ namespace api.Mappers
                 Purchase = stockModel.Purchase,
                 LastDiv = stockModel.LastDiv,
                 Industry = stockModel.Industry,
-                MarketCap = stockModel.MarketCap
+                MarketCap = stockModel.MarketCap,
+                Comments = stockModel.Comments.Select(c => c.ToCommentDto()).ToList()
             };
         }
         public static Stock ToStockFromCreateDTO(this CreateStockRequest stockDto)
