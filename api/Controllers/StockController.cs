@@ -9,6 +9,7 @@ using api.Dtos.Stock;
 using Microsoft.EntityFrameworkCore;
 using api.Interfaces;
 using api.Hellpers;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace api.Controllers
@@ -27,13 +28,14 @@ namespace api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
             var stocks = await _stockRepo.GetAllAsync(query);
             var stockDto = stocks.Select(s => s.ToStokDto());
-            
+
             return Ok(stocks);
         }
 
