@@ -16,7 +16,9 @@ namespace api.Models
         public int? StockId { get; set; }
         public Stock? Stock { get; set; } // свойство навигации 
 
-        
+        public string AppUserId { get; set; }
+
+        public AppUser appUser { get; set; }
 
     }
 }
