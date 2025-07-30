@@ -14,7 +14,9 @@ namespace api.Models
         public string Context { get; set; } = string.Empty;
         public DateTime CreatedOn { get; set; } = DateTime.UtcNow;
         public int? StockId { get; set; }
-
         public Stock? Stock { get; set; } // свойство навигации 
+
+        
+
     }
 }
