@@ -20,7 +20,9 @@ namespace api.Mappers
                 Title = commentModel.Title,
                 Context = commentModel.Context,
                 CreatedOn = commentModel.CreatedOn,
+                CreatedBy = commentModel.appUser.UserName,
                 StockId = commentModel.StockId
+                
             };
         }
         public static Comment ToCommentFromCreate(this CreateDto commentModel, int stockid)
